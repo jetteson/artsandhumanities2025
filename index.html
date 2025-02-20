@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Centered Images</title>
+    <style>
+
+    	body{
+    		background: white;
+    		font-family: Inter;
+    	}
+        div {
+            display: grid;
+            place-items: center;
+        }
+
+        img {
+            max-width: 100%; /* Ensures images scale down within their container */
+            height: auto; /* Maintain aspect ratio */
+            margin: 30px
+        }
+
+        .first-pic{
+        	margin-top: 100px;
+        }
+
+        .last-pic{
+        	margin-bottom: 100px;
+        }
+
+        #first-line{
+        	margin: 50px; !important
+        	display: block;
+        	font-size: 14px;
+        	color: #333;
+        }
+ 
+    </style>
+</head>
+<body>
+    <div>
+    	 <img class="first-pic" src="https://i.ibb.co/3YTZtvQ9/title.png" alt="Image 1">
+    	 <p id="first-line">Pictures imagining what my life would've been like if my family never left egypt.</p>
+    	<img src="https://i.ibb.co/v6pYZw6Y/mustache.png" alt="Third Image">
+    	<img src="https://i.ibb.co/MDZdv7Bc/mcdonalds.png" alt="Sixth Image">
+    	<img src="https://i.ibb.co/pv4CqFRL/sitting.png" alt="Fifth Image">
+        <img src="https://i.ibb.co/bjx981Dh/beetles.png" alt="Second Image">
+        <img src="https://i.ibb.co/4wT1qssR/popout.png" alt="Fourth Image">
+        <img class="last-pic" src="https://i.ibb.co/hRFwc33d/statue.png" alt="Seventh Image">
+    </div>
+</body>
+</html>
